@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edufold University</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+<!---Header -->
+    <section class="sub-header">
+         <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="courses.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-solid fa-bars" onclick="showMenu()"></i>
+         </nav>
+<h1>Contact Us</h1>
+</section>
+<!---Header End -->
+
+
+<!----contactus content--->
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125042.34464746052!2d78.06825646287798!3d11.65372663071678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3babf1ccf52cba0b%3A0xee9989007068ca47!2sSalem%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1668600237561!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+<section class="contactus">
+    <div class="row">
+        <div class="contact-col">
+          <div>
+            <i class="fa fa-duotone fa-house-user"></i>
+            <span>
+                <h5>XYZ Road, ABC Building</h5>
+                <p>Salem, Tamilnadu, India.</p>
+            </span>
+          </div>
+          <div>
+            <i class="fa fa-solid fa-phone"></i>
+            <span>
+                <h5>91 99088 98789</h5>
+                <p>Monday to Saturday, 10AM to 6PM</p>
+            </span>
+          </div>
+          <div>
+            <i class="fa fa-solid fa-envelope"></i>
+            <span>
+                <h5>infogmail@gamil.com</h5>
+                <p>Email us Your Query</p>
+            </span>
+          </div>
+        </div>
+
+        <div class="contact-col">
+            <form action="">
+                <input type="text" placeholder="Enter Your Name" required>
+                <input type="email" placeholder="Enter Your Email" required>
+                <input type="text" placeholder="Enter Your Subject" required>
+                <textarea rows="5" placeholder="Message" required></textarea>
+                <button type="submit" class="hero-btn red-btn">Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>
+<!----contactus content End--->
+
+
+<!---Footer -->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's <br>
+        standard dummy text ever since the 1500s.</p>
+        <div class="icons">
+            <i class="fa fa-brands fa-facebook"></i>
+            <i class="fa fa-brands fa-twitter"></i>
+            <i class="fa fa-brands fa-instagram"></i>
+            <i class="fa fa-brands fa-linkedin"></i>
+            <p>Made with<i class="fa fa-solid fa-heart"></i> by Web Freelancer</p>
+        </div>
+    </section>
+<!---Footer End -->
+    
+<!---Javascript for Toggle Menu-->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+        function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+    
+</script>
+<!---Javascript for Toggle Menu-->
+</body>
+</html>
